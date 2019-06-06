@@ -1,0 +1,20 @@
+{{ define "main" }}
+<header class="www-header">
+    <h1 class="h2 mb4 px2 col-12 sm-col-8 mx-auto">{{ .Title }}</h1>
+    <span class="h3 block mb4 px2 col-12 sm-col-8 mx-auto"><a href="/contact" class="ampstart-btn ampstart-btn-primary caps inline-block">Contact us</a>
+<a href="tel:2604821436" class="ampstart-btn ampstart-btn-primary caps inline-block">260.482.1436</a></span>
+</header>
+<main class="www-howitworks flex px2 mb2">
+    <aside class="col-2 xs-hide"></aside>
+    <article class="flex-auto col-8">
+        <header class=" h4 my2">
+            <small><a href="/" class="">Home</a> | <strong>{{ .Title }}</strong></small>
+        </header>
+        <hr>
+        <section class="mb2">
+            <div class="my2">{{ .Content | replaceRE "<p>" "<p class=\"my2 \">" | safeHTML }}</div>
+        </section>
+    </article>
+    <aside class="col-2 xs-hide"></aside>
+</main>
+{{ end }}

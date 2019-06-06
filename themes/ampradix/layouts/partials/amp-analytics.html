@@ -1,0 +1,45 @@
+<amp-analytics type="googleanalytics" id="analytics-ga">
+  <script type="application/json">
+  {
+    "vars": {
+      "account": "{{ $.Site.googleAnalytics }}"
+    },
+    "triggers": {
+      "trackPageview": {
+        "on": "visible",
+        "request": "pageview"
+      },
+      "previews": {
+        "on": "click",
+        "selector": "[data-vars-preview]",
+        "request": "event",
+        "vars": {
+          "eventCategory": "preview",
+          "eventAction": "click",
+          "eventLabel": "${preview}"
+        }
+      },
+      "downloads": {
+        "on": "click",
+        "selector": "[data-vars-download]",
+        "request": "event",
+        "vars": {
+          "eventCategory": "download",
+          "eventAction": "click",
+          "eventLabel": "${download}"
+        }
+      },
+      "outboundLinks": {
+        "on": "click",
+        "selector": "[data-vars-outbound-link]",
+        "request": "event",
+        "vars": {
+          "eventCategory": "outbound",
+          "eventAction": "click",
+          "eventLabel": "${outboundLink}"
+        }
+      }
+    }
+  }
+  </script>
+</amp-analytics>

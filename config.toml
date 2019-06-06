@@ -1,0 +1,46 @@
+baseURL = "https://project-7498139985589509590.web.app/"
+languageCode = "en-us"
+title = "Cloud Radix Website Projects"
+theme = "ampradix"
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+sectionPagesMenu = "main"
+# Paginate = 3 
+# googleAnalytics = "UA-42675935-1"
+enableRobotsTXT = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "project"
+    name = "Projects"
+    url = "/project/"
+    weight = -110
+
+  [[menu.main]]
+    name = "contact"
+    url = "/contact/"
+    weight = -100
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = "favicon.ico"
+  logo = "logo.svg"
+  logo_width = "200"
+  logo_height = "50"
+  description = "Digital Agency that grows dental, financial and legal business on the web using data driven, user focused and objectively measured web solutions.  "
+  twitter = "cloudradix"
+  facebookAppId = "xxx"
+
+#  featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+
+#  Example section & items for homepage 
+#  recent_articles_number = 2
+#  recent_case-studies_number = 2
+#  recent_client-reviews_number = 2
+#  recent_projects_number = 2
