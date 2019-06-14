@@ -3,13 +3,15 @@ date: 2019-06-05T00:53:45-04:00
 title: "Plant Engineering"
 draft: false
 Description: "New website project."
-featured_image: 'https://via.placeholder.com/350x200/0263e0/fff?text=350+x+200'
+featured_image: '/plant-engineering-featured-image-350x200.jpg'
 featured_image_width: '350'
 featured_image_height: '200'
 structured_image1: ''
 structured_image2: ''
 structured_image3: ''
 ---
+
+## Testing date modification.
 
 ## Website nav
 

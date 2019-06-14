@@ -5,7 +5,7 @@ theme = "ampradix"
 
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
-sectionPagesMenu = "main"
+# sectionPagesMenu = "main"
 # Paginate = 3 
 # googleAnalytics = "UA-42675935-1"
 enableRobotsTXT = true
@@ -13,15 +13,27 @@ enableRobotsTXT = true
 [menu]
 
   [[menu.main]]
-    identifier = "project"
-    name = "Projects"
-    url = "/project/"
-    weight = -110
-
+    identifier = "website-design"
+    name = "Website Design"
+    url = "/website-design/"
+    weight = -130
   [[menu.main]]
-    name = "contact"
+    name = "Marketing"
+    url = "/internet-marketing/"
+    weight = -125
+  [[menu.main]]
+    name = "Case Studies"
+    url = "/case-study/"
+    weight = -120
+  [[menu.main]]
+    name = "Articles"
+    url = "/article/"
+    weight = -110
+  [[menu.main]]
+    name = "Contact"
     url = "/contact/"
-    weight = -100
+    weight = -105
+
 
 [sitemap]
   changefreq = "monthly"
@@ -33,7 +45,7 @@ enableRobotsTXT = true
   logo = "logo.svg"
   logo_width = "200"
   logo_height = "50"
-  description = "Digital Agency that grows dental, financial and legal business on the web using data driven, user focused and objectively measured web solutions.  "
+  description = "Digital Agency that grows business on the web using data driven, user focused and objectively measured web solutions.  "
   twitter = "cloudradix"
   facebookAppId = "xxx"
 
